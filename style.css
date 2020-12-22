@@ -1,0 +1,93 @@
+body {
+ margin: 0;
+ padding: 0;
+ /* border:0;  */
+}
+
+header.home {
+  height: 85vh; 
+  background-image: url('/images/home.png');
+  background-size: cover;
+  background-position: center;
+}
+
+header.exercise {
+  height: 85vh; 
+  background-image: url('/images/exercise.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+header.nutrition {
+  height: 85vh; 
+  background-image: url('/images/fruits.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+header.sleep {
+  height: 85vh; 
+  background-image: url('/images/sleep.png');
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  background-color: rgba(235, 235, 235, 0.192);
+}
+
+.menu {
+	float: right;
+	list-style-type: none;
+}
+
+div.menu li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+/*styling the li tag*/
+div.menu li a{
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+  font-size: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* .img{
+ float: left;
+} */
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	overflow: auto;
+}
+
+.gallery {
+	margin: 5px;
+	float: left;
+	width: 390px;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.desc {
+	padding: 15px;
+}
+
+footer {
+	padding: 10px;
+	font-size: 17px;
+	text-align: center;
+	color: white;
+	background: black;
+}
+
+.page-container {
+	margin: 30px 50px;
+}
