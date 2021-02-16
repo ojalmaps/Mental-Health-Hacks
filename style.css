@@ -6,14 +6,14 @@ body {
 
 header.home {
   height: 85vh; 
-  background-image: url('/images/home.png');
+  background-image: url('images/home.png');
   background-size: cover;
   background-position: center;
 }
 
 header.exercise {
   height: 85vh; 
-  background-image: url('/images/exercise.jpg');
+  background-image: url('images/exercise.jpg');
   background-size: cover;
   background-position: center;
 }
