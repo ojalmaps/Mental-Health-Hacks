@@ -20,14 +20,14 @@ header.exercise {
 
 header.nutrition {
   height: 85vh; 
-  background-image: url('/images/fruits.jpg');
+  background-image: url('images/fruits.jpg');
   background-size: cover;
   background-position: center;
 }
 
 header.sleep {
   height: 85vh; 
-  background-image: url('/images/sleep.png');
+  background-image: url('images/sleep.png');
   background-size: cover;
   background-position: center;
 }
